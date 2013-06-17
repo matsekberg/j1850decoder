@@ -11,12 +11,12 @@ Board: Arduino Pro Mini 5V 16MHz ATMega168
 
 ###Recorded sample
 
->29FE400164<
->8CFE10601F<
->28FF10010707<
->28FF10010707<
->281B10020000D5<
->28931002008C<
+	>29FE400164<
+	>8CFE10601F<
+	>28FF10010707<
+	>28FF10010707<
+	>281B10020000D5<
+	>28931002008C<
 
 ###Below is an interpreted recording from my Harley Sportster:
 
