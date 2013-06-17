@@ -9,7 +9,16 @@ One digital input connected to the data stream on the J1850-bus and another pin 
 
 Board: Arduino Pro Mini 5V 16MHz ATMega168
 
-###Below is a recording from my Harley Sportster:
+###Recorded sample
+
+>29FE400164<
+>8CFE10601F<
+>28FF10010707<
+>28FF10010707<
+>281B10020000D5<
+>28931002008C<
+
+###Below is an interpreted recording from my Harley Sportster:
 
 	Unique frames ------------------
      [281B10 020000 D5] [P1 H3 YF Z0 T1B S10] Status: RPM 0 (8 Function Command/Status)
