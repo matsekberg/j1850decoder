@@ -9,6 +9,11 @@ One digital input connected to the data stream on the J1850-bus and another pin 
 
 Board: Arduino Pro Mini 5V 16MHz ATMega168
 
+###Connections
+
+J1850 pulses connected to D2 and D9.
+Data out on Serial port.
+
 ###Recorded sample
 
 	>29FE400164<
