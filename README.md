@@ -9,9 +9,9 @@ One digital input connected to the data stream on the J1850-bus and another pin 
 
 Board: Arduino Pro Mini 5V 16MHz ATMega168
 
-Below is a recording from my Harley Sportster:
+###Below is a recording from my Harley Sportster:
 
-Unique frames ------------------
+	Unique frames ------------------
      [281B10 020000 D5] [P1 H3 YF Z0 T1B S10] Status: RPM 0 (8 Function Command/Status)
      [482910 020000 56] [P2 H3 YF Z0 T29 S10] Status: Speed 0 (8 Function Command/Status)
      [A86910 860000 D7] [P5 H3 YF Z0 T69 S10] Status: ODO last 0.0 (8 Function Command/Status)
@@ -22,7 +22,7 @@ Unique frames ------------------
      [489240 AAFFFF 5B] [P2 H3 YF Z0 T92 S40] Command: ? Vehicle security (8 Function Command/Status)
      [289340 019B3B CA] [P1 H3 YF Z0 T93 S40] Status: ? Vehicle security (8 Function Command/Status)
      [48DA40 3902 4A] [P2 H3 YF Z0 TDA S40] Command: Turn signal Right (8 Function Command/Status)
-Frames from sources ------------------
+	Frames from sources ------------------
   Source = 10
     [281B10 020000 D5] [P1 H3 YF Z0 T1B S10] Status: RPM 0 (8 Function Command/Status)
     [482910 020000 56] [P2 H3 YF Z0 T29 S10] Status: Speed 0 (8 Function Command/Status)
