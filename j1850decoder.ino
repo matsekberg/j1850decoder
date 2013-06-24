@@ -1,5 +1,5 @@
 //
-// J1850 decoder, v1.3
+// J1850 decoder, v1.2
 // Mats Ekberg (c) 2013
 // 
 // This software decodes the binary data stream from a J1850 compliant 
@@ -76,11 +76,11 @@ void setup(void)
   pinMode(LED_PIN, OUTPUT);
   digitalWrite(LED_PIN, HIGH);
 
-  Serial.begin(115200);
+  Serial.begin(38400);
   delay(2000);
   digitalWrite(LED_PIN, LOW);
   delay(1000);
-  Serial.println(F("j1850decoder/v1.3"));
+  Serial.println(F("j1850decoder/v1.2"));
 
   TMROVF_INT_OFF;
   TCCR1A = 0;
@@ -110,7 +110,7 @@ void loop(void)
       if (msgbuf[i] < 16) Serial.print("0");
       Serial.print(msgbuf[i], HEX);
     }
-    Serial.println(F("<"));
+    Serial.println();
     msgLen = 0;
     digitalWrite(LED_PIN, LOW);
   }
@@ -233,6 +233,7 @@ ISR(TIMER1_OVF_vect)
   }
   idle = true;
 }
+
 
 
 
